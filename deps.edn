@@ -1,0 +1,5 @@
+{
+ :deps           {clj-http/clj-http {:mvn/version "3.12.3"}
+                  cheshire/cheshire {:mvn/version "5.11.0"}}
+ :mvn/local-repo "m2-repo"
+ }

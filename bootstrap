@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -x
+
+export GITLIBS=gitlibs
+
+export JAVA_HOME=/usr/lib/jvm/java
+
+ls /usr/lib/
+
+/opt/clojure-rt/bin/clojure -X bootstrap/handler
